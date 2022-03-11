@@ -1,15 +1,5 @@
-@font-face {
-    font-family: hero;
-    src: url(./font/hero/Hero.otf)
-}
-
-@font-face {
-    font-family: hero-light;
-    src: url(./font/hero/Hero\ Light.otf)
-}
-
 body {
-    font-family: Hero;
+    font-family: Helvetica, sans-serif;
     margin:0;
 }
 
@@ -18,39 +8,62 @@ a {
     color: white;
 }
 
-.header {
+.top-section {
     background-color: #1F2937;
     color: white;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.top-section {
-    display: flex;
-    align-items: center;
+.header {
     padding-bottom: 40px;
+    display: flex;
+}
+
+.header-logo {
+    font-weight: 600;
+    align-self: center;
 }
 
 .header-links {
     list-style: none;
     display: flex;
     margin-left: auto;
-    gap: 15px;
+    gap: 13px;
+    font-size: 12.5px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
 }
 
 .subheader-container{
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    gap: 60px;
+    align-items: center;
 }
 
 .subheader-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
+
+.sign-up {
+    max-width: 100px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: 6px solid #3882F6;
+    border-radius: 5px;
+}
+
 
 .placeholder {
     background-color: #6d7785;
-    width: 400px;
+    min-width: 400px;
     height: 200px;
     margin-left: auto;
     display: flex;
