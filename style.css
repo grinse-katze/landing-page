@@ -8,6 +8,8 @@ a {
     color: white;
 }
 
+/* -------------- SECTION 1 -------------- */
+
 .section-one {
     background-color: #1F2937;
     color: white;
@@ -64,7 +66,6 @@ h1 {
     opacity: 60%;
 }
 
-
 .placeholder {
     background-color: #6d7785;
     min-width: 400px;
@@ -75,10 +76,13 @@ h1 {
     align-items: center;
 }
 
+/* -------------- SECTION 2 -------------- */
+
 .section-two {
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 20px;
+    padding-bottom: 80px;
     text-align: center;
 }
 
@@ -104,4 +108,79 @@ h2 {
 .info-description {
     color: rgb(91, 93, 110);
     padding-top: 7px;
+}
+
+/* -------------- SECTION 3 -------------- */
+
+.section-three {
+    background-color: #E5E7EB;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* -------------- SECTION 4 -------------- */
+
+.section-four {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.signup-text {
+    color: white;
+}
+
+.button-text {
+    font-weight: 900;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.button-subtext {
+    font-weight: 100;
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: auto;
+    width: 110px;
+    height: 30px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.sign-up-2:hover{
+    opacity: 60%;
 }
