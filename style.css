@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Helvetica, sans-serif;
     margin:0;
@@ -8,37 +12,57 @@ a {
     color: white;
 }
 
+/* -------------- HEADER -------------- */
+
+.header {
+    position: fixed;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color: #51637c;
+    width: 100%;
+    display: flex;
+}
+
+.header-logo {
+    align-self: center;
+    max-width: 50px;
+    height: auto;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.header-logo:hover,
+.header-links a:hover {
+    background-color: #1F2937;
+    opacity: 50%;
+}
+
+.header-links {
+    list-style: none;
+    font-size: 12.5px;
+    font-weight: 100;
+    margin-left: auto;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
 /* -------------- SECTION 1 -------------- */
 
 .section-one {
     background-color: #1F2937;
     color: white;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.header {
-    padding-bottom: 40px;
-    display: flex;
-}
-
-.header-logo {
-    font-weight: 600;
-    align-self: center;
-}
-
-.header-links {
-    list-style: none;
-    display: flex;
-    margin-left: auto;
-    gap: 13px;
-    font-size: 12.5px;
-    font-weight: 100;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 130px;
 }
 
 h1 {
     font-weight: 900;
     font-size: 48px;
+    font-family: "Sansita Swashed";
 }
 
 .subheader-container{
@@ -51,6 +75,9 @@ h1 {
 .subheader-text {
     display: flex;
     flex-direction: column; 
+    min-width: 250px;
+    max-width: 500px;
+    font-weight: 100;
 }
 
 .sign-up {
@@ -67,15 +94,11 @@ h1 {
     opacity: 60%;
 }
 
-.placeholder {
-    background-color: #6d7785;
-    font-weight: 100;
+.header-img {
     min-width: 400px;
-    height: 200px;
     margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 4px solid white;
+    border-radius: 10%;
 }
 
 /* -------------- SECTION 2 -------------- */
@@ -110,6 +133,7 @@ h2 {
 .info-description {
     color: rgb(91, 93, 110);
     padding-top: 7px;
+    max-width: 160px;
 }
 
 /* -------------- SECTION 3 -------------- */
