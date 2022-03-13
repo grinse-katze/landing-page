@@ -56,7 +56,7 @@ a {
     color: white;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 h1 {
@@ -95,10 +95,12 @@ h1 {
 }
 
 .header-img {
-    min-width: 400px;
+    min-width: 350px;
+    margin-top: 60px;
     margin-left: auto;
-    border: 4px solid white;
+    border: 10px solid white;
     border-radius: 10%;
+    
 }
 
 /* -------------- SECTION 2 -------------- */
@@ -112,8 +114,11 @@ h1 {
 }
 
 h2 {
+    font-family: "Sansita Swashed";
     font-weight: 900;
     font-size: 36px;
+    text-transform: lowercase;
+    margin-bottom: 30px;
 }
 
 .box-container {
@@ -126,14 +131,14 @@ h2 {
 .info-boxes {
     width: 150px;
     height: 150px;
-    border: 3px solid #3882F6;
+    border: 4px solid #51637c;
     border-radius: 7%;
 }
 
 .info-description {
-    color: rgb(91, 93, 110);
-    padding-top: 7px;
+    color: #51637c;
     max-width: 160px;
+    padding-top: 10px;
 }
 
 /* -------------- SECTION 3 -------------- */
@@ -147,7 +152,7 @@ h2 {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 32px;
     color: #1F2937;
     font-style: italic;
     font-weight: 100;
@@ -215,11 +220,12 @@ h2 {
 .footer {
     position: fixed;
     bottom: 0;
-    background-color: #1F2937;
+    background-color: #51637c;
     color: white;
     font-weight: 100;
+    font-size: 12px;
     width: 100%;
-    height: 60px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
