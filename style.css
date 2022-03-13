@@ -70,14 +70,14 @@ h1 {
     font-family: "Sansita Swashed";
 }
 
-.subheader-container{
+.about-container{
     display: flex;
     padding-bottom: 110px;
     gap: 60px;
     align-items: center;
 }
 
-.subheader-text {
+.about-text {
     display: flex;
     flex-direction: column; 
     min-width: 300px;
@@ -99,7 +99,7 @@ h1 {
     opacity: 60%;
 }
 
-.header-img {
+.about-img {
     min-width: 300px;
     max-width: 450px;
     margin-top: 60px;
@@ -194,6 +194,7 @@ h2 {
 
 .signup-text {
     color: white;
+
 }
 
 .button-text {
@@ -204,6 +205,7 @@ h2 {
 
 .button-subtext {
     font-weight: 100;
+    text-align: start;
 }
 
 .sign-up-2 {
