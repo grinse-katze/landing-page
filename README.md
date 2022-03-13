@@ -13,4 +13,4 @@ Listed below are the images featured within the webpage:
 - [Cardboard box](https://unsplash.com/photos/DcoB_NoNl6U)
 
 
-[Live Demo] (https://grinse-katze.github.io/landing-page/)
+[Live Demo](https://grinse-katze.github.io/landing-page/)
