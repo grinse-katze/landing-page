@@ -32,21 +32,26 @@ a {
     margin-left: 20px;
 }
 
-.header-logo:hover,
-.header-links a:hover {
+.header-logo:hover {
     background-color: #1F2937;
     opacity: 50%;
 }
 
 .header-links {
     list-style: none;
-    font-size: 12.5px;
+    font-size: 15px;
     font-weight: 100;
     margin-left: auto;
     padding-right: 20px;
     display: flex;
     align-items: center;
     gap: 13px;
+}
+
+.header-links a:hover {
+    background-color: #1F2937;
+    opacity: 50%;
+    height: 50px;
 }
 
 /* -------------- SECTION 1 -------------- */
@@ -56,7 +61,7 @@ a {
     color: white;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 h1 {
@@ -67,7 +72,7 @@ h1 {
 
 .subheader-container{
     display: flex;
-    padding-bottom: 90px;
+    padding-bottom: 110px;
     gap: 60px;
     align-items: center;
 }
@@ -75,8 +80,8 @@ h1 {
 .subheader-text {
     display: flex;
     flex-direction: column; 
-    min-width: 250px;
-    max-width: 500px;
+    min-width: 300px;
+    max-width: 600px;
     font-weight: 100;
 }
 
@@ -95,7 +100,8 @@ h1 {
 }
 
 .header-img {
-    min-width: 350px;
+    min-width: 300px;
+    max-width: 450px;
     margin-top: 60px;
     margin-left: auto;
     border: 10px solid white;
@@ -105,20 +111,20 @@ h1 {
 
 /* -------------- SECTION 2 -------------- */
 
+
 .section-two {
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 20px;
-    padding-bottom: 80px;
     text-align: center;
 }
 
 h2 {
+    padding-top: 30px;
     font-family: "Sansita Swashed";
     font-weight: 900;
-    font-size: 36px;
+    font-size: 46px;
     text-transform: lowercase;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .box-container {
@@ -126,18 +132,19 @@ h2 {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    margin-bottom: 120px;
 }
 
 .info-boxes {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 4px solid #51637c;
     border-radius: 7%;
 }
 
 .info-description {
     color: #51637c;
-    max-width: 160px;
+    max-width: 200px;
     padding-top: 10px;
 }
 
@@ -145,14 +152,14 @@ h2 {
 
 .section-three {
     background-color: #E5E7EB;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 80px;
-    padding-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 110px;
 }
 
 .quote {
-    font-size: 32px;
+    font-size: 38px;
     color: #1F2937;
     font-style: italic;
     font-weight: 100;
@@ -171,8 +178,8 @@ h2 {
 .section-four {
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 80px;
-    padding-bottom: 150px;
+    padding-top: 140px;
+    margin-bottom: 150px;
 }
 
 .signup-button {

@@ -4,7 +4,7 @@ This project is a sample for a landing page, made for [The Odin Projects](https:
 
 Listed below are the images featured within the webpage:
 
-    -Jaime @grinsekatze (do not use without permission)
+    -Jaime [@grinse-katze](https://github.com/grinse-katze) (do not use without permission)
     -[Milk image](https://pixabay.com/photos/milk-food-nourishment-drink-glass-2777165/)
     -[Cat treats](https://mysweetprecision.com/chewy-cat-treats/)
     -[Crown](https://unsplash.com/photos/KP1bubr2j4A)
